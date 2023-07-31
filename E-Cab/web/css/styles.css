@@ -1,0 +1,385 @@
+/* LOGIN SECTION*/
+.login-main-div{
+  width: 100%;
+  height: 100vh;
+  background: #141414;
+}
+
+.position-div{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 100vh;
+}
+
+.login-box{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+  z-index: 1;
+  justify-content: center;
+
+}
+
+.login-box div img{
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.login-box div h3 {
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.login-box div .input_box {
+  background-color: white;
+  display: flex;
+  margin-bottom: 7px;
+  width: 300px;
+  padding-left: 20px;
+  border-radius: 2rem;
+  align-items: center;
+}
+
+.login-box div .input_box input{
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+}
+
+.login-box div button {
+  width: 250px;
+  padding: 8px 15px;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  margin: 6px 0;
+  font-weight: bold;
+}
+
+.login-box div .login-btn {
+  background-color: #5c5d5a;
+  color: white;
+}
+
+.login-box div .register-btn {
+  background-color: #d28d0a;
+}
+
+/* NAVBAR SECTION */
+
+.navbarr{
+    background-color: #2b2a2a;
+}
+
+.dropdown-edited {
+    background-color:#2b2a2a;
+    color:white;
+}
+
+.dropdown-edited:hover {
+    background-color:#2b2a2a;
+    color:grey;
+}
+
+/* REGISTRATION SECTION */
+
+#drivercheck {
+    display: none;
+}
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+.register-div {
+    background-color: #141414;
+    color: white;
+    border-radius: 0px !important;
+    
+}
+
+.register-header {
+    background-color: #2b2a2a !important;
+    color: black;
+    border-radius: 0px !important; 
+    overflow:hidden; 
+}
+
+.model-heading {
+    font-size: 20px;
+    color:white;
+}
+
+/* DRIVER SECTION */
+
+.driver-h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.driver-table {
+    background-color: #141414;
+    color: white;
+    text-align: center;
+    
+}
+
+.driver-main-div {
+    text-align: center;
+    background-color: #141414;
+    margin-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+    
+}
+
+.table{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-head{
+    background-color: #141414;
+}
+
+.button-driver {
+    background-color: #2b2a2a !important;
+    color: white;
+    margin-top: 5px;
+    float: right;
+}
+
+.jobs-h3{
+    padding-top: 20px;
+}
+
+.driver-user{
+    margin-left: 39.75%;
+}
+.th-width {
+    width:200px;
+}
+
+.select-box{
+    width:120px;
+    background-color: #2b2a2a !important;
+    color:white !important;
+    border:1px solid #141414;
+    font-size: 13px;
+}
+
+
+
+/*TABLE BORDER SECTION */
+
+table.table-striped{
+    border:10px solid #2b2a2a;
+    margin-top:20px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+table.table-striped > thead > tr > th{
+    border:1px solid #2b2a2a;
+    text-align: center;
+    vertical-align: middle;
+ 
+}
+
+table.table-striped > tbody > tr > td{
+    border:1px solid #2b2a2a;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+table.table-striped > tbody > tr > th{
+    border:1px solid #2b2a2a;
+    text-align: center;
+    vertical-align: middle;
+    font-size:13px !important;
+}
+
+.th-tr-td-custom {
+    border:1px solid #2b2a2a;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #2b2a2a;
+}
+
+.table-font-size {
+    font-size: 13px;
+}
+
+/* ADMIN SECTION */
+
+.summary-table{
+    background-color: #141414;
+    color: white;
+    text-align: center;
+    border:1px solid #2b2a2a !important;
+    font-size: 13px;
+}
+
+.summary-div {
+    text-align: center;
+    background-color: #141414;
+    border-color: #2b2a2a;
+    border-width: 100px;
+    margin-bottom: 50px;
+    font-size: 13px;
+}
+
+.summary-h3 {
+    color:white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.button-admin{
+    background-color: #2b2a2a !important;
+    color: white;
+    margin-top: 5px;
+}
+
+.input-style{
+    background-color: #2b2a2a !important;
+    color: white;
+    border: 1px solid #2b2a2a !important;
+}
+
+.input-style2{
+    background-color: #141414 !important;
+    color: white;
+    border: 1px solid #141414 !important;
+    width: 500px;
+}
+
+.map-div{
+    background-color: #141414;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+#map-h1{
+    font-size: 14px;
+}
+
+body{
+  background-color: #141414;
+  font-family: 'Roboto', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.vehicle-no{
+    display: none;
+}
+
+#map{
+    height: 500px;
+}
+
+.welcome{
+    margin:20px 20px 20px 250px;
+}
+
+.floating-panel {
+    position: absolute;
+    left: 45%;
+    z-index: 5;
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 30px;
+    padding-left: 0;
+}
+.map-btn{
+    background-color: white;
+    color: black;
+}
+
+.c-label {
+    width:150px;
+    text-align:left;
+    padding-right:10px;
+    padding-left: 30px;
+}
+
+.bc-div {
+   
+}
+.confirm-box{
+  width: 400px;
+  padding-right: 20px;
+ 
+}
+
+#cmap{
+  width: 600px;
+  height: 400px;
+}
+
+.bc-h1{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.confirm-div {
+    margin-left: 80px;
+}
+
+.tbl-inputs{
+    background-color: transparent;
+    border: none;
+    color:white;
+}
+
+.nav-item{
+    margin: 5px;
+}
+
+.drop-down-filter{
+    background-color: #141414;
+    color: white;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    border-color: #141414;
+}
+
+.drop-down-filter:focus {
+    background-color: #141414;
+}
+
+.reports-container{
+    margin-left: 75px;
+    margin-right: 75px;
+}
